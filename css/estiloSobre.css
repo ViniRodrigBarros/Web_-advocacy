@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+body{
+    background-color: #38065D; 
+    font: 2%;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif; 
+    align-items: center; 
+    
+}
+p{
+    color: white;
+}
+#title{
+    color: white;
+    font-size: 55px;
+    margin: 0;
+    margin-left: 1%;
+}
+#name{
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    margin-left: 5%;
+}
+#container{
+    background-image: url(../imagens/Imagem2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1150px;
+    height: 640px;
+    margin: 0 auto 0;
+    box-shadow: black;
+    transition: 1s;
+    color: white;
+    text-align: left;
+}
+#container:hover{
+    transition: 1s;
+    transform: scale(1.0112);
+}
+header{
+    color: white;
+    display: flex;
+    align-items: center ;
+    padding: 20px;
+    
+}
+nav{
+    cursor: pointer;
+    margin: 0 auto;
+    top: 20px;
+    text-align: center;
+    
+}
+nav .menu{
+    list-style: none;
+    transform: translateX(0);
+   
+    
+}
+nav .menu li{
+   display: inline-block;
+   padding: 10px;
+   font-size: 20;
+}
+nav .menu a{
+    color:#9A83AE;
+   text-decoration: none;
+   transition: all 0.5s;
+ }
+ nav .menu a:hover{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+h2{
+    margin-left: 7%;
+    padding-top: 10%;
+}
+p{
+    margin-left: 7%;
+    padding-top: 0.5%;
+    width: 31%;
+    line-height: 150%;  
+}
+@media screen and (max-width: 800px){
+    #container{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 1150px;
+        height: 640px;
+        margin: 0 auto 0;
+        box-shadow: black;
+        transition: 4s;
+        color: white;
+        text-align: left;
+    }
+    h2{
+        margin-left: 7%;
+        padding-top: 3%;
+    }
+    p{
+        margin-left: 7%;
+        padding-top: 0.5%;
+        width: 31%;
+        line
+
+}
