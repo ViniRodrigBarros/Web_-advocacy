@@ -194,7 +194,7 @@ nav .menu a{
         display: none;
     }
     .left-loguin-image{
-        width: 50vh;
+        display: none;
     }
     nav .menu a{
         font-size: small;
